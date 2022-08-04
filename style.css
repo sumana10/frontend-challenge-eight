@@ -92,10 +92,13 @@ nav ul a{
 
 /* form section */
 form{
-display: flex;
+
+  display: flex;
+
 }
 
 input{
+
   font-family: 'Raleway', sans-serif;
   border: 1px solid hsl(243, 87%, 12%);
   padding: 15px;
@@ -106,7 +109,9 @@ input{
 }
 
 input::placeholder{
-  color: hsl(0, 0%, 75%)
+
+  color: hsl(0, 0%, 75%);
+
 }
 
 button{
@@ -125,7 +130,9 @@ button{
 }
 
 header{
+
   padding-bottom: 60px;
+
 }
 
 /* testimonial section */
@@ -185,6 +192,8 @@ header{
 small{
   font-size: 12px;
 }
+/* newsletter */
+
 .newsletter{
 
   background-color:  hsl(238, 22%, 44%);
@@ -192,12 +201,12 @@ small{
   padding: 50px 0;
 }
 
-
 .newsletter form{
 
   flex-direction: column;
 
 }
+
 .newsletter form input{
 
   flex: 1;
@@ -205,6 +214,7 @@ small{
   border: none;
 
 }
+
 .newsletter form button{
 
   margin: 20px 0;
