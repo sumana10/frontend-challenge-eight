@@ -315,9 +315,7 @@ footer p{
     margin: 10px 0 0;
   }
   .testimonial:before{
-   
     background-image: url('images/bg-curve-mobile.svg');
-   
   }
 
   .testimonial-box{
@@ -358,7 +356,5 @@ footer p{
  footer p {
   text-align: center;
  }
-
- 
 
 }
